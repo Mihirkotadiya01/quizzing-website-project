@@ -1,0 +1,86 @@
+body{
+    background-image:url(background2.png) ;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: rgb(76, 75, 22);
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+div{
+    display: inline-block;
+}
+
+
+
+
+.btn{
+margin: 10px;
+
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+.creatquiz-btn{
+    
+    margin: 100px;
+
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 24px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.creatquiz-btn:hover{
+    transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+h2{
+    color:rgb(168, 68, 72);
+    margin: 50px auto 0px auto;
+    font-family: 'Shantell Sans', cursive;
+
+}

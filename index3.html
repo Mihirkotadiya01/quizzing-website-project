@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat your Quiz</title>
+    <link rel="icon" type="" href="favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+</head>
+<body>
+  
+    <h1>Creat Quiz</h1>
+
+    <form>
+        <label for="quiz-name-input">Quiz name:</label>
+        <input type="text" id="quiz-name-input" name="quiz-name"/><br/>
+
+        <label for="number-of-questions-input">Number of Question:</label>
+        <input
+            type="number"
+            id="number-of-questions-input"
+            name="number-of-questions"
+            min="1"
+            max="10"
+            /><br/>
+
+            <div id="questions-container">
+                <div id="question-1">
+                    <label for="question-1-input">Question 1:</label>
+                    <input type="text" id="question-1-input" name="question-1-input"/><br/>
+
+                    <label for="answer-1-input">Answer 1:</label>
+                    <input type="text" id="answer-1-input" name="answer-1-input"/><br/>
+                </div>
+            </div>
+
+        <button type="button" id="addQuestionButton">Add Question</button><br/>
+
+        <input type="submit" value="Create Quiz"/>
+
+    </form>
+</body>
+</html>

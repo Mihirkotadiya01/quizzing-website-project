@@ -1,0 +1,25 @@
+body{
+    background-image:url(backgroundcreatquiz.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(252, 226, 42);
+    
+   
+    
+}
+#quiz-name-input{
+    margin: 40px;
+}
+#number-of-questions-input{
+    margin: 40px;
+}
+#question-1-input{
+    margin: 40px;
+}
+#answer-1-input{
+    margin: 40px;
+}
+#addQuestionButton{
+    margin: 40px;
+}

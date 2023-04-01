@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Sign up Now</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+    <div class="sign-up-form">
+        <h1>Sign up Now</h1>
+        <form id="Sign-Up">
+            
+            <input type="email" id="input-box1"  placeholder="your email">
+            <input type="password" id="input-box2"  placeholder="your password">
+            <p><span><input type="checkbox"></span> agree to the terms of services </p>
+            <button type="button" id="signupbtn" >sign up</button>
+            <hr>
+            <p class="or">OR</p>
+            <button type="button" id="log in with google btn">Log in With Google</button>
+            <p> Do you have an account? <a href="#">Sign in</a></p>
+            
+            
+
+        </form>
+    </div>
+    <script src="firebase.js" type="module"></script>
+    <script src="signup.js" type="module"></script>
+</body>
+  <!-- <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+    import{getDatabase,set,ref} from "https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js";
+    import { getAuth,createUserWithEmailAndPassword, } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCZEA2cLYSDgI-2fhWFBxAyqBdndaR6B9U",
+      authDomain: "auth-of-quizzing-website-01.firebaseapp.com",
+      projectId: "auth-of-quizzing-website-01",
+      storageBucket: "auth-of-quizzing-website-01.appspot.com",
+      messagingSenderId: "289707452201",
+      appId: "1:289707452201:web:c78b5054fdb61cba3b7938",
+      measurementId: "G-H6YBSVE34Z"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const database=getDatabase(app);
+    const auth = getAuth(app);
+
+    signupbtn.addEventListener('click',(e)=>{
+        var email=document.getElementById('input-box1').value;
+        var password=document.getElementById('input-box2').value;
+         
+        
+createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed in 
+    const user = userCredential.user;
+    
+    
+    set(ref(database,'users/'+user,uid),{
+      email:email
+    })
+    alert('user created');
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+
+    alert('errorMessage');
+    // ..
+  });
+
+    });
+
+    console.log(app); 
+  </script> -->
+</html>

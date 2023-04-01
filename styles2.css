@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(backgroun.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.sign-up-form{
+   
+
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+
+
+}
+
+.sign-up-form{
+    color: #1c8abd;
+    margin-bottom: 35px;
+
+}
+#input-box1{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border:1px solid #999;
+    outline: none;
+
+}
+#input-box2{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border:1px solid #999;
+    outline: none; 
+}
+#signupbtn{
+    margin: 10px;
+    
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+    #signupbtn:hover{
+    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+    }
+ 
+    .sign-in-form{
+   
+
+        width: 300px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: white;
+        padding: 20px;
+        margin: 8% auto 0;
+        text-align: center;
+    
+    
+    
+    }
+    
+    .sign-in-form{
+        color: #1c8abd;
+        margin-bottom: 35px;
+    }
+
+    .input-box{
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+        border:1px solid #999;
+        outline: none;
+    }
+    #signinbtn{
+        margin: 10px;
+        
+        
+        font-family: Roboto, sans-serif;
+        font-weight: 0;
+        font-size: 14px;
+        color: #fff;
+        background-color: #0066CC;
+        padding: 10px 30px;
+        border: 2px solid #0066cc;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 50px;
+        transition : 1000ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        }
+        
+        #signinbtn:hover{
+        
+        transition : 1000ms;
+        padding: 10px 50px;
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #0066cc;
+        border: solid 2px #0066cc;
+        }
+
+        

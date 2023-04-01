@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizShot</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <link rel="icon" type="" href="favicon-32x32.png">
+</head>
+<body>
+
+    <div>
+        <img src="quizsymbole.png">
+        
+    </div>
+    <div class="1" >
+  
+    <h1>QuizShot</h1>
+    </div>
+    <div style="margin-left: 80%;">
+    <a href="signin.html">
+        <button  class="btn">sign in</button>
+        
+    
+    </a>
+    </div>
+    <div>
+    <a href="signup.html">
+        <button class="btn">sign up</button>
+    </a>
+    </div>
+
+    <div>
+        <h1>Welcom to my Quiz</h1>
+        <h2 id="headerText">What is your Name?</h2>
+    </div>
+
+    <div>
+        <input type="text" name="" id="userName1">
+        <button onclick="greeting()">Submit</button>
+
+    </div>
+    <div>
+        <a href="index2.html">
+            <button class="creatquiz-btn">Creat Quiz</button>
+        </a>
+    </div>
+
+    <hr>
+    <div class="features">
+    <h1>Features of Our Website</h1>
+    
+    <table>
+        <tr>
+            <td><img src="Q&Aimage.png"></td>
+            <td><h2>You can creat quiz by filling question and answers.</h2></td>
+        </tr>
+        <tr>
+            <td><img src="leaderboard.png"></td>
+            <td><h2>You can See your Result and performance using leaderboard.</h2></td>
+        </tr>
+    </table>
+    <!-- <ol>You can creat quiz by filling question and answers.</ol>
+    <ol>You can See your Result and performance using leaderboard.</ol>
+    -->
+    
+
+
+</div>
+
+
+
+</div>
+
+    <script>
+        let userName1=document.querySelector("#userName1");
+        let headerText=document.querySelector("#headerText");
+
+        function greeting(){
+            headerText.innerHTML=""
+            //to clear what is your name text after pressing submit
+            headerText.innerHTML="Hello "+ userName1.value +", Welcome to Quizshot.";
+            //username refer to the elment from html and value refer to the what userhave typed in box
+
+        }
+    </script>
+
+    
+</body>
+</html>
